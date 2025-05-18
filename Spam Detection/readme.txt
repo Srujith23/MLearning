@@ -1,0 +1,1 @@
+Email spam detection model. Used SMOTE to handle data imbalnce, nltk fro stopwords removal, lemmatization, punctuation removal. Fit the data on XGBoost Classifier whose hyperparameters are tuned using GridSearchCV. Feature of mark as spam is added whcih appends the message to the dataset and uses the updated dataset to train the base model everytime.
